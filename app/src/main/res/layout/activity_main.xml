@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/beijing">
+
+<!--title-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="@string/quite"
+            android:textSize="20sp">
+
+        </Button>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:background="#00000000"
+            android:text="@string/Sign_in"
+            android:textSize="20sp">
+
+        </Button>
+
+    </RelativeLayout>
+
+
+<!--账号-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/username"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="fill">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@id/text1"
+            android:hint="@string/username_hint"
+            android:autofillHints="@string/username_hint">
+        </EditText>
+    </RelativeLayout>
+
+<!--密码-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp">
+
+        <TextView
+            android:id="@+id/text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/password"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:gravity="fill"
+            android:textStyle="bold">
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@id/text_2"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword"
+            android:autofillHints="@string/password_hint">
+        </EditText>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
+            android:text="@string/log"
+            android:textSize="25sp"
+            android:background="@drawable/button_circle_shape">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginEnd="50dp"
+        tools:ignore="RtlHardcoded">
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="@string/foreign"
+            android:textSize="15sp">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

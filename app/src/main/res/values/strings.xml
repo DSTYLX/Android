@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Login_Demo</string>
+    <string name="Sign_in">注册</string>
+    <string name="username">账户</string>
+    <string name="password">密码</string>
+    <string name="log">登录</string>
+    <string name="quite">X</string>
+    <string name="username_hint">手机号/邮箱/用户名</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="foreign">忘记密码？</string>
+</resources>
